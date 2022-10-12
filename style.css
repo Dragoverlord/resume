@@ -78,8 +78,11 @@ nav {
 /* section start */
 section {
   margin: 0 60px;
-  height: 1200px; 
+  height: 900px; 
 
+}
+.section2 {
+  height: 400px;
 }
 .Content2{
     display: flex;
