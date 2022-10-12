@@ -327,7 +327,7 @@ main {
 
 .icons{
   display: inline-flex;
-  margin: 100px 50px;
+  margin: 100px 0px;
 }
 .icons a{
   margin: 0 14px;
