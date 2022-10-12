@@ -105,7 +105,7 @@ section {
     width: 300px;
 }
 .card2 > img {
-  max-width: 220px;
+  max-width: 180px;
   height: 200px;
   border-radius: 5px 5px 0 0;
   border-color: white;
@@ -506,6 +506,9 @@ main {
   100% {
     bottom: 100%;
   }
+}
+#communication{
+  width: 220px;
 }
 .links2 a {
   position: relative;
