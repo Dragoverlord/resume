@@ -12,7 +12,7 @@ header {
 }
 
 /* container */
-.container1 {
+.container5 {
   max-width: 1152px;
   margin: 0 auto;
 }
@@ -78,7 +78,8 @@ nav {
 section {
   margin: 0 60px;
   height: 800px; 
-
+  max-width: 100%;
+  background-image: url(https://gamerwall.pro/uploads/posts/2022-03/1647875790_1-gamerwall-pro-p-neon-fon-krasivie-1.jpg);
 }
 .Content2{
     display: flex;
