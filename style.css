@@ -625,6 +625,10 @@ main {
   margin: 40px 30px;
   transition: 0.5s;
 }
+#box-1 {
+  width: 320px;
+  height: 440px;
+}
 .box::before{
   content:' ';
   position: absolute;
