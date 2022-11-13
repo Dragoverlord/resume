@@ -9,7 +9,7 @@ body {
 
 /* header start */
 header {
-  height: 300px;
+  height: 100%;
 }
 
 /* container */
@@ -87,6 +87,68 @@ section {
   height: 1000px;
   max-width: 100%;
   background-image: url(https://gamerwall.pro/uploads/posts/2022-03/1647875790_1-gamerwall-pro-p-neon-fon-krasivie-1.jpg);
+}
+.header-footer{
+  height: 200vh;
+}
+.container-6{
+  clip: rect(0, auto, auto, 0);
+  overflow: hidden;
+  position: absolute;
+  height: 100vh;
+  left: 0;
+  width: 100%;
+}
+.container-6_solid{
+  background: rgb(0, 0, 0);
+  top: 0;
+}
+.title_wrapper{
+  position: fixed;
+  display: block;
+  margin: auto;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.title_wrapper h1{
+  text-align: center;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+.container-6_solid .title_wrapper h1{
+  background: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?&q=85);
+  background-size: 100vw auto;
+  background-position: center;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: black;
+}
+.container-6_image{
+  background-image: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: 100vw auto;
+  background-position: center;
+  background-attachment: fixed;
+  top: 80vh;
+}
+.container-6_image .title_wrapper h1{
+  color: rgb(0, 0, 0);
+}
+.section6{
+  min-height: 30vh;
+  padding: 2em;
+  margin: auto;
+  max-width: 90%;
+  background-image:url(https://gamerwall.pro/uploads/posts/2022-03/1647875790_1-gamerwall-pro-p-neon-fon-krasivie-1.jpg);
+}
+.section6 h2{
+  font-family: "Gothic A1", sans-serif;
 }
 
 .Content2 {
