@@ -122,19 +122,20 @@ section {
   font-weight: 900;
 }
 .container-6_solid .title_wrapper h1{
-  background: url(https://celes.club/uploads/posts/2022-06/1654396684_1-celes-club-p-oboi-v-stile-neon-krasivie-1.jpg);
+  background: url(https://mobimg.b-cdn.net/v3/fetch/b8/b8133291bb6a58376a63915e81716dc6.jpeg);
   background-size: 100vw auto;
   background-position: center;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  -webkit-background-clip: text;
-  color: black;
+  -webkit-background-clip: text;  ;
+  color: rgb(1, 1, 1);
 }
 .container-6_image{
-  background-image: url(https://celes.club/uploads/posts/2022-06/1654396684_1-celes-club-p-oboi-v-stile-neon-krasivie-1.jpg);
+  background-image: url(https://mobimg.b-cdn.net/v3/fetch/b8/b8133291bb6a58376a63915e81716dc6.jpeg);
   background-size: 100vw auto;
   background-position: center;
   background-attachment: fixed;
+  box-shadow: 4ch;
   top: 80vh;
 }
 .container-6_image .title_wrapper h1{
